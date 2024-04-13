@@ -1,0 +1,128 @@
+\input{framework.sty}
+\input{resume.sty}
+\begin{document}
+%%% TItle %%%
+\vspace{-5em}
+\begin{tcolorbox}[height=0.15\textheight,colframe=lightgrey,colback=lightgrey]
+	\begin{minipage}{0.81\textwidth} % Name and Contact Info
+		\vspace{-2em}
+		\name{Mahdi Jalili}{}
+		\vspace{2em}
+		\email{mahdi\_jalili@modares.ac.ir} %$\cdot$
+		\phone{+98 930 597 6341} \par \vspace{0.5em}
+		\address{Tarbiat Modares, Tehran/Iran} %$\cdot$
+		\github{https://github.com/Dan7h3x}{Dan7h3x}
+	\end{minipage}
+	\begin{minipage}{0.177\textwidth} % Picture Area
+		\includegraphics[width=1\textwidth, trim={0 0.6cm 0cm 0}, clip]{me.jpg} % Picture
+	\end{minipage} \hfill
+\end{tcolorbox}
+
+%%% Sections %%%
+\begin{minipage}{0.7125\textwidth} % Main Panel (e.g. Education, Work Experience)
+	\begin{tcolorbox}[height=0.8\textheight, grow to left by=0.55cm,colframe=white,colback=white]
+
+		%%%%%%%%%%%% Education %%%%%%%%%%%%
+		\mySection{Education}
+		\entryFocusDesc{10.2021 - current}
+		{PhD of Applied Mathematics}{at Tarbiat Modares}
+		{Numerical Analysis}
+		{ \begin{compactitem}[-]
+				\item Average: 18.49
+			\end{compactitem}
+		}
+
+		\entryFocusDesc{10.2018 - 07.2021}
+		{Master of Applied Mathematics}{at Tarbiat Modares}{Numerical Analysis}
+		{\begin{compactitem}[-]
+				\item Average: 16.08
+				\item Thesis:
+				Application of Machine Learning Algorithms in Modelling and Solving Parabolic Partial Differential Equations
+			\end{compactitem}
+		}
+
+		\entryDesc{10.2013 - 07.2018}
+		{Bachelor of Mathematics}{at Urmia Nazloo}
+		{\begin{compactitem}[-]
+				\item Average: 12.54
+			\end{compactitem}
+		}
+
+
+
+
+		%%%%%%%%%%%% Work experience %%%%%%%%%%%%
+		\mySection{Work experience}
+
+		\entryFocusDesc{10.2023 - 03.2024}
+		{Teacher Assistant}{at Numerical Learning Methods}
+		{Python based learning problem solving}
+		{\begin{compactitem}[-]
+				\item Providing Lectures of Python Programming
+				\item Solving Problems of TextBook using Python
+				\item Providing Visual Lectures of Python Simulations
+			\end{compactitem}
+		}
+
+		\entryFocusDesc{10.2022 - 03.2023}
+		{Teacher Assistant}{at Digital Image Processing}
+		{Python based Digital Image Processing}
+		{\begin{compactitem}[-]
+				\item Providing Lectures of Python Programming
+				\item Solving Problems of TextBook using Python
+				\item Providing Visual Lectures of Python Simulations
+			\end{compactitem}
+		}
+
+		\entryFocusDesc{10.2021 - 03.2022}
+		{Teacher Assistant}{at Machine Learning Basics}
+		{R Programming and utils for Machine Learning}
+		{\begin{compactitem}[-]
+				\item Providing Lectures of R Programming
+				\item Solving Problems of TextBook using R
+			\end{compactitem}
+		}
+
+		%%%%%%%%%%%% Publications %%%%%%%%%%%%
+		\mySection{Publications}
+		\entryFocus{01.2023}
+		{An efficient meshless method to approximate semi-linear stochastic evolution equations}
+		{Mahdi Jalili, Rezvan Salehi, Mehdi Dehghan}
+
+		\entryFocus{12.2021}
+		{The approximate solution of one dimensional stochastic evolution equations by meshless methods}
+		{Mahdi Jalili, Rezvan Salehi}
+
+		%%%%%%%%%%%% Interests %%%%%%%%%%%%
+		\mySection{Interests}
+		\entryNoDate{Mathematics and Applications, Linux, Python, C++, MATLAB, \LaTeX}
+
+	\end{tcolorbox}
+\end{minipage}
+\begin{minipage}{0.23\textwidth} % Side Panel (e.g. Skills, Links, Languages, etc.)
+	\begin{tcolorbox}[height=0.8\textheight, grow to right by=0.5cm, colback=accent,colframe=accent,arc=1mm]
+		% Skills, the skill level is drawn as bars, input: skill name and an array starting from 0 and ending before 4
+		\vspace{0.5em}
+		\subsection*{Programming Skills}
+		\skill{Python}{5}
+		\skill{LaTeX}{4}
+		\skill{MATLAB}{4}
+		\skill{R}{3}
+		\skill{C++}{3}
+
+		\vspace{2em}
+		\subsection*{Languages}
+		\skill{Turkish (Native)}{5}
+		\skill{English (B2 Proficiency)}{4}
+		\skill{Persian (Second Native)}{4}
+
+
+		\vspace{2em}
+		\subsection*{Additional}
+		\skill{Linux (LPIC 2)}{5}
+		\skill{Git}{4}
+		\skill{SSH}{3}
+	\end{tcolorbox}
+\end{minipage}
+
+\end{document}
